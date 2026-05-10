@@ -1,0 +1,817 @@
+/*
+|----------------------------------------------------------------------
+|       Media Queries
+|----------------------------------------------------------------------
+*/
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	/*_____ Home _____*/
+	.sidebar{
+		width: 26%!important;
+	}
+	.cityLstingDash li{
+		padding:15px;
+		display: flex;
+		flex-direction: column;
+	}
+	.cityLstingDash li .bookingAddCity .cityCntnt{
+		margin-left: 10px;
+	}
+	.cityLstingDash li .bookingAddBtn{
+		width: 100%;
+		margin-top: 10px;
+		text-align: right;
+	}
+	#for_you table tr td {
+		padding: 15px 10px;
+	}
+	.adRequest .addRow .colAddL .cntnt{
+		flex:1;
+	}
+	.overCntnt .inner_cntnt{
+		flex-direction: column;
+	}
+	.overCntnt .inner_cntnt ._colR {
+		align-self: flex-end;
+		padding-top: 10px;
+	}
+	/* ====location tracker========= */
+	.trackBdyInner{
+		display: flex;
+		flex-direction: column;
+	}
+	.trackDrop .trackImg{
+		width: 40px;
+		height: 40px;
+		align-self: flex-start;
+	}
+	.trackDrop .cntnt a{
+		font-size: 12px;
+	}
+	/* =------------design management=============== */
+	.designBlkLstig li h4{
+		font-size: 13px;
+	}
+	.designBlkLstig li .statusLable{
+		font-size: 12px;
+        padding: 3px 10px;
+	}
+	.designBlkLstig li .actionIcon a{
+		width: 24px;
+		height: 24px;
+		font-size: 14px;
+	}
+
+	/* ============inbox============= */
+	.chatRoom .backBtn{
+		display: none;
+	}
+	.chatBlk{
+		width: 100%;
+	}
+	.chatForm .rightText .webBtn{
+		min-width: auto;
+		padding: 0 15px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	/*_____ Navigation _____*/
+	html.move {
+
+        overflow: hidden !important;
+
+    }
+
+    body {
+        left: 0;
+
+    transition: all 0.5s ease;
+
+    }
+
+    body.move {
+
+    overflow: hidden !important;
+
+    position: relative;
+
+    left: -250px;
+
+    transition: all 0.5s ease;
+
+    }
+
+    header {
+
+        /*position: relative !important;*/
+
+        top: -2px !important;
+
+        height: auto;
+
+    }
+
+    header.logged {
+
+        position: fixed !important;
+
+        height: 64px;
+
+    }
+
+    header .proIco {
+
+    margin-right: 0px;
+	margin-top: 30px;
+
+    }
+	.loggedHeader .toggle{
+		display: none;
+	}
+    
+
+    .toggle {
+
+        display: block;
+
+    }
+
+    /*#nav{
+
+        height: 376px;
+
+        overflow: auto;
+
+    }*/
+
+
+
+   
+    nav {
+
+        position: fixed !important;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: none;
+    margin: 0 !important;
+    background: #f9fbfc;
+    border-left: 1px solid #cfd7de94;
+    overflow-x: hidden;
+    overflow-y: auto;
+    }
+	nav.active{
+		display: flex;
+	}
+
+    nav > ul,
+
+    nav > ul > li,
+
+    nav > ul > li > a {
+
+        display: block;
+
+        color: #333!important;
+
+    }
+	#nav {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: 0;
+		width: 100%;
+	}
+
+    nav > ul > li {
+
+        padding: 5px 15px;
+
+        /* border-top: 1px solid #2aa2d926; */
+
+    }
+	#nav > li.active > a{
+		border-bottom: none;
+	}
+    nav > ul > li > .sub{
+        z-index: 2;
+    }
+    .preFooter .contain{
+        z-index: 1;
+    }
+
+    header form {
+
+        min-width: 300px;
+
+        margin-left: 30px;
+
+    }
+    nav > ul > li.bTn{
+        justify-content: center;
+        padding-top:10px;
+    }
+	/* =======gallery======== */
+	.gallery .col .image{
+		height: auto;
+	}
+	.truckImage{
+		width: 100%;
+		margin-left: -50px;
+		margin-bottom: auto;
+	}
+	.galleryBanner .colR{
+		padding-left: 0;
+	}
+	/* ====blog========= */
+	.blog .col .image{
+		height: auto;
+	}
+	#blog .flexRow > .col1{
+		width: 100%;
+	}
+	/* ==contact============ */
+	#contact .flexRow > .col2{
+		padding-left: 10px;
+	}
+	#contact form{
+		padding:20px;
+	}
+	/* =================================================================
+	==================have a design ready=================
+	============================================ */
+	[strip] .blk > .inside{
+		padding:40px;
+	}
+	#for_you .uiForm .nav-tabs{
+		min-width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		margin-right:0px;
+        padding-right: 0px;
+		margin-top: 20px;
+	}
+	#for_you .uiForm{
+		flex-direction: column;
+	}
+	#for_you .uiForm .nav-tabs > li{
+		flex: 1;
+	}
+	#for_you .uiForm .nav-tabs > li > a{
+		flex-direction: column;
+        text-align: center;
+	}
+	#for_you .uiForm .nav-tabs > li > a:before{
+		display: none;
+	}
+	#for_you .uiForm .nav-tabs:before{
+		top: 22px;
+		bottom: auto;
+		width: 100%;
+        height: 3px;
+	}
+	#for_you .uiForm .nav-tabs > li > a .ico{
+		margin-left: 0;
+		margin-bottom: 10px;
+	}
+	#strip{
+		padding:30px;
+	}
+
+	/* ===============request to book============= */
+	#book_req .flexRow {
+		margin: -15px -20px;
+	}
+	#book_req .flexRow > .col {
+		padding: 15px 20px;
+		width: 100%;
+	}
+
+	/* =================dashboard============= */
+	.sidebar{
+		width: 35% !important;
+	}
+	.blkTwo .colR{
+		width: 100%;
+		padding-left: 0;
+	}
+	.blkTwo .colL{
+		width: 100%;
+		padding-right: 0;
+	}
+	#for_you table tr td {
+		padding: 15px 10px;
+	}
+	.adRequest .addRow .colAddL .cntnt{
+		flex:1;
+	}
+	.overCntnt .inner_cntnt{
+		flex-direction: column;
+	}
+	.overCntnt .inner_cntnt ._colR {
+		align-self: flex-end;
+		padding-top: 10px;
+	}
+
+	/* ==================design menagement========== */
+	.designManagementBlk .blkHeader{
+		flex-direction: column;
+	}
+	.designManagementBlk .blkHeader h3{
+		margin-bottom: 10px;
+	}
+	.designManagementBlk .blkHeader .bTn{
+		justify-content: center;
+	}
+
+	.designBlkLstig li .colImg , .designBlkLstig li .colMsBig , .designBlkLstig li .colSm , .designBlkLstig li .colBig{
+		width: 100%;
+	}
+	.designBlkLstig li.lstHead h4{
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.designBlkLstig li.lstHead .colImg{
+		justify-content: center;
+	}
+	.designBlkLstig .cmnShadow .colImg{
+		width: 100px!important;
+	}
+	.designBlkLstig .cmnShadow{
+		justify-content: center;
+		text-align: center;
+		padding: 20px;
+	}
+	.designBlkLstig li .colBig{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	/* ========my order============== */
+	.myOrderBlk .col1 , .myOrderBlk .col{
+		width: 100%;
+		text-align: center;
+	}
+	.myOrderBlk .col1 .flex{
+		flex-direction: column;
+	}
+	.myOrderBlk .orderImage{
+		margin:0px auto;
+	}
+	/* ============inbox============= */
+	.chatRoom .backBtn{
+		display: none;
+	}
+	.chatBlk{
+		width: 100%;
+	}
+	.messageBox .cmnMsgWid {
+		width: 100%;
+	}
+	.chatForm .rightText .webBtn{
+		min-width: auto;
+		padding: 0 8px;
+	}
+	.chatForm .leftText{
+		width: 80%;
+	}
+	.chatForm .rightText{
+		width: 20%;
+	}
+	.chatBdy , .chatForm , .chatHeader{
+		padding: 15px 20px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	/*_____ All Site _____*/
+	h1 {
+		font-size: 24px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	h3 {
+		font-size: 18px;
+	}
+	h4 {
+		font-size: 15px;
+	}
+	p.pre {
+		font-size: 15px;
+	}
+	/* =========footer========== */
+	footer .flexRow > .col{
+		width: 50%;
+	}
+	footer .flexRow > .col:nth-child(1), footer .flexRow > .col:nth-last-child(1){
+		width: 100%;
+	}
+	/*_____ Home _____*/
+	#banner .outer{
+		flex-wrap: wrap;
+	}
+	/* ====gallery======== */
+	.gallery .col{
+		width: 50%;
+	}
+	/* ====blog======= */
+	.blog .cntnt p.smInfo span{
+		font-size: 12px;
+	}
+	.blog .cntnt p.smInfo span:not(:first-child){
+		padding-left: 7px;
+        margin-left: 7px;
+	}
+	.blog .col{
+		width: 100%;
+	}
+	.lstBlog{
+		flex-direction: column;
+	}
+	.lstBlog .cntnt{
+		margin-left: 0;
+		margin-top: 20px;
+	}
+	.lstBlog .colImg{
+		width: 100%;
+		height: auto;
+	}
+	#sBanner{
+		margin-top: -65px;
+	}
+
+	#for_you .uiForm .nav-tabs > li > a:before{
+		display: none;
+	}
+	#for_you .uiForm .nav-tabs:before{
+		top: 22px;
+	}
+
+	#for_you #strip > .backBtn{
+		display: none;
+	}
+
+	/* =======================dashboard================== */
+	.sidebar {
+		width: 100%!important;
+		height: auto;
+		min-height: auto;
+		position: fixed;
+		padding:15px 20px 20px;
+		z-index: 4;
+	}
+	.mobileDashToggle{
+		background: #ffcd30;
+		height: 40px;
+		margin-left: 0px!important;
+		cursor: pointer;
+		padding: 11px 20px!important;
+}
+	.mobileDashToggle h6{
+		color: rgb(0, 0, 0)!important;
+	}
+	.mobileMenuLsting li{
+		padding: 0!important;
+	}
+	.mobileMenuLsting{
+		padding: 20px;
+		background: #333;
+		display: none;
+	}
+	.sidebar .sideItem .nav-link{
+		padding: 10px;
+		font-size: 15px;
+	}
+	.sidebar .sideItem .nav-link .dashImg{
+		width: 17px;
+	}
+
+	#dash #content-wrapper{
+		width: 100%;
+		margin-left: 0;
+		margin-top: 100px;
+	}
+	
+	/* location tracker */
+	.trackBdyInner .trackBdyBolR ul{
+		display: flex;
+		flex-direction: column;
+	}
+	.chatForm .rightText .webBtn{
+		min-width: 100%;
+	}
+
+
+}
+
+@media screen and (max-width: 580px) {
+	/*_____ col-xx-? _____*/
+	.col-xx-12 {
+		width: 100%;
+	}
+	.col-xx-11 {
+		width: 91.6667%;
+	}
+	.col-xx-10 {
+		width: 83.3334%;
+	}
+	.col-xx-9 {
+		width: 75%;
+	}
+	.col-xx-8 {
+		width: 66.6667%;
+	}
+	.col-xx-7 {
+		width: 58.3334%;
+	}
+	.col-xx-6 {
+		width: 50%;
+	}
+	.col-xx-5 {
+		width: 41.6667%;
+	}
+	.col-xx-4 {
+		width: 33.3334%;
+	}
+	.col-xx-3 {
+		width: 25%;
+	}
+	.col-xx-2 {
+		width: 16.6667%;
+	}
+	.col-xx-1 {
+		width: 8.3334%;
+	}
+	/*_____ Home _____*/
+	#works .flexRow > .col {
+		width: 100%;
+	}
+	#main_form form .txtGrp{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	#main_form form .txtBox{
+		background-color: #f6f6f6;
+	}
+	#main_form form .bTn, #main_form form .webBtn{
+		width: 100%;
+	}
+	#main_form form .txtGrp:not(:nth-of-type(1)){
+		width: calc(100% / 1);
+		margin-left: 0px;
+		padding-left: 0px;
+		border-left:none;
+	}
+	#main_form form{
+		flex-wrap: wrap;
+	}
+	#monitor .flexRow > .col{
+		width: 100%;
+	}
+	#need .outer{
+		flex-wrap: wrap;
+	}
+	#need .outer > .image{
+		display: none;
+	}
+	/* =============gallery=========== */
+	.galleryBanner .colL{
+		width: 100%;
+		padding-right: 0;
+	}
+	.galleryBanner .colR{
+		width: 100%;
+		padding-left: 0;
+	}
+	
+	.openion .reaction{
+		padding: 3px 5px;
+		width: 85px;
+	}
+	/* ========contact======== */
+	#contact .flexRow > .col1 , #contact .flexRow > .col2{
+		width: 100%;
+	}
+	
+}
+
+@media screen and (max-width: 480px) {
+	/*_____ col-xx-? _____*/
+	.col-xx-12,
+	.col-xx-11,
+	.col-xx-10,
+	.col-xx-9,
+	.col-xx-8,
+	.col-xx-7,
+	.col-xx-6,
+	.col-xx-5,
+	.col-xx-4,
+	.col-xx-3,
+	.col-xx-2,
+	.col-xx-1 {
+		width: 100% !important;
+	}
+	/*_____ Home _____*/
+	#banner .content .choose > small{
+		margin:0 15px;
+	}
+	.copyright .inner{
+		flex-direction: column-reverse;
+		text-align: center;
+	}
+	.copyright p{
+		padding-top: 10px;
+	}
+	/* ======location======= */
+	#locations .flexRow > .col{
+		width: 50%;
+	}
+	/* =======gallery====== */
+	.gallery .col{
+		width: 100%;
+	}
+	#owl-folioClient .inner .ico{
+		margin-right: 10px;
+	}
+	#owl-folioClient .inner p{
+		margin-top: -4px;
+	}
+	/* =========have already design========= */
+	#strip{
+		flex-direction: column;
+	}
+	#strip > .txt{
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	#strip > *{
+		width: 100%;
+	}
+	[strip] .blk > .inside {
+		padding: 15px;
+	}
+	#for_you .uiForm .nav-tabs > li{
+		flex:none;
+		width: 100%;
+	}
+	#for_you .uiForm .nav-tabs:before {
+		position: absolute;
+		top: 0px;
+		left: 23px;
+		right:auto;
+		bottom: -40px;
+		display: block;
+		width: 2px;
+		background: #f5f5f5;
+		height: 100%;
+	}
+	#for_you .uiForm .nav-tabs > li:not(:nth-last-child(1)) {
+		margin-bottom: 20px;
+	}
+	#for_you .uiForm .nav-tabs > li > a {
+		flex-direction: row;
+		text-align: left;
+	}
+	#for_you .uiForm .nav-tabs > li > a .ico{
+		margin-left: 0;
+		margin-right: 15px;
+	}
+	#for_you .uiForm .tab-content{
+		margin-top: 20px;
+	}
+
+	#for_you table tr td:nth-child(1){
+		width: 100%;
+		display: block;
+	}
+	#for_you table tr td{
+		display: block;
+	}
+	#for_you table tr{
+		display: block;
+		border-bottom: 1px solid #e3b743;
+	}
+	.fileUpload p.fileOption {
+		text-align: right;
+		position: absolute;
+		bottom: 0;
+		margin-left: 0;
+		right: 12px;
+	}
+	#for_you .flexRow > .col{
+		width: 100%;
+	}
+	#for_you table tr td{
+		border-bottom: none!important;
+	}
+
+	/* ========request to book======== */
+	#book_req #strip{
+		flex-direction: row;
+	}
+	#book_req #strip > .txt{
+		margin-bottom: 0;
+	}
+	#book_req .inside{
+		padding-left: 0;
+	}
+	/* ========dashboard============== */
+	.overCntnt .inner_cntnt ._colR p{
+		font-size: 14px;
+		padding: 6px 10px;
+	}
+	.adRequest .addRow{
+		flex-direction: column;
+	}
+	.adRequest .addRow .colAddL .images{
+		width: 60px;
+        height: 44px;
+	}
+	/* ======design management----------- */
+	.designManagementBlk .blkHeader .bTn a{
+		width: 100%;
+	}
+	/* ==========my order======== */
+	.myOrderBlk .webBtn{
+		width: 100%;
+	}
+	.myOrderBlk .col1, .myOrderBlk .col{
+		text-align: center;
+	}
+	.myOrderBlk .col1 .flex{
+		flex-direction: column;
+	}
+	.myOrderBlk .orderImage{
+		margin:0px auto;
+	}
+	/* =========inbox========== */
+	.chatForm .leftText{
+		width: 100%;
+	}
+	.chatForm .rightText{
+		width: 100%;
+	}
+	.chatRoom{
+		padding: 10px;
+	}
+	.chatBdy {
+		padding: 15px 10px;
+	}
+	.chatHeader{
+		padding: 15px 10px;
+	}
+	.chatHeader .colL h4{
+		flex:1;
+	}
+	/* .chatForm .leftText button{
+		position: relative;
+	}
+	.chatForm .leftText button{
+		right: -15px;
+	}
+	.chatForm .leftText button.clipIcon{
+		right: 0;
+	} */
+	.chatForm .rightText .webBtn{
+		width: 100%;
+	}
+	/* .chatForm .leftText .chatField{
+		padding-right: 10px;
+	} */
+	.chatForm{
+		padding: 15px 10px;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	/*_____ Home _____*/
+}
+
+@media screen and (max-width: 320px) {
+	/*_____ Home _____*/
+	footer .smLst > li {
+		padding: 5px 4px;
+	}
+	#owl-folioClient .inner p {
+		margin-top:0px;
+	}
+}
+
+/*
+|----------------------------------------------------------------------
+|       Media Queries Height
+|----------------------------------------------------------------------
+*/
+
+@media screen and (max-height: 420px) {
+}
+
+@media screen and (min-height: 768px) {
+}
+
+@media screen and (min-height: 1040px) {
+}

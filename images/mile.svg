@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62.009" height="85.309" viewBox="0 0 62.009 85.309">
+  <g id="Group_885" data-name="Group 885" transform="translate(-1166 -640)">
+    <g id="Rectangle_358" data-name="Rectangle 358" transform="translate(1166 640)" fill="#fff" stroke="#333" stroke-width="4">
+      <path d="M31,0h0a31,31,0,0,1,31,31v54.3a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V31A31,31,0,0,1,31,0Z" stroke="none"/>
+      <path d="M31,2h0a29,29,0,0,1,29,29V82.1A1.209,1.209,0,0,1,58.8,83.309H3.209A1.209,1.209,0,0,1,2,82.1V31A29,29,0,0,1,31,2Z" fill="none"/>
+    </g>
+    <g id="Rectangle_359" data-name="Rectangle 359" transform="translate(1166 640)" fill="#ffd401" stroke="#333" stroke-width="4">
+      <path d="M31,0h0a31,31,0,0,1,31,31v2.819a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V31A31,31,0,0,1,31,0Z" stroke="none"/>
+      <path d="M30.63,2h.749a28.63,28.63,0,0,1,28.63,28.63v0a1.193,1.193,0,0,1-1.193,1.193H3.193A1.193,1.193,0,0,1,2,30.63v0A28.63,28.63,0,0,1,30.63,2Z" fill="none"/>
+    </g>
+    <text id="_10M" data-name="10M" transform="translate(1196.026 702.346)" fill="#333" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="-17.785" y="0">10M</tspan></text>
+  </g>
+</svg>
